@@ -1,0 +1,40 @@
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-skills {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2.5rem;
+  text-align: center;
+}
+.skills {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+.skills h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 2rem -2px 2rem 0;
+}
+.icon-container {
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid yellow;
+  background-color: pink;
+  margin-bottom: 2rem;
+  display: flex;
+  transform: rotate(45deg);
+}
+.icon-container i {
+  color: yellow;
+  font-size: 5rem;
+  transform: rotate(-45deg);
+  margin: auto;
+}

@@ -1,0 +1,33 @@
+.contact {
+  background-color: #221e3f;
+}
+form {
+  width: 70%;
+  margin: auto;
+}
+form label {
+  font-size: 1.5rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 5rem;
+  border: none;
+  outline-color: #fd57bf;
+}
+input[type="submit"] {
+  width: initial;
+  background-color: #fd57bf;
+  cursor: pointer;
+  color: #eee;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  transition: background-color 650ms;
+}
+input[type="submit"]:hover {
+  background-color: #ffe838;
+  color: #221e3f;
+}
